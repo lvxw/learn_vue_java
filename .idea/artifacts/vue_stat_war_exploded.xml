@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="vue_stat:war exploded">
+    <output-path>$PROJECT_DIR$/vue_stat/target/vue_stat</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="vue_stat" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/vue_stat/target/vue_stat/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="vue_stat/web/Web" />
+    </root>
+  </artifact>
+</component>

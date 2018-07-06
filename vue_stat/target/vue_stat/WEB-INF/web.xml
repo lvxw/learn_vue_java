@@ -1,0 +1,23 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <servlet>
+    <servlet-name>myFirstServlet</servlet-name>
+    <servlet-class>com.test.controller.MyJavaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>myScalaServlet</servlet-name>
+    <servlet-class>com.test.controller.MyScalaServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>myFirstServlet</servlet-name>
+    <url-pattern>/java</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>myScalaServlet</servlet-name>
+    <url-pattern>/scala</url-pattern>
+  </servlet-mapping>
+</web-app>

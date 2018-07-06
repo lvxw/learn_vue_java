@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="vue_stat:war">
+    <output-path>$PROJECT_DIR$/vue_stat/target</output-path>
+    <root id="archive" name="vue_stat.war">
+      <element id="artifact" artifact-name="vue_stat:war exploded" />
+    </root>
+  </artifact>
+</component>
