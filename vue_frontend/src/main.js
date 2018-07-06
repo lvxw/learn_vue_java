@@ -3,7 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import echarts from 'echarts'
+import ElementUI from 'element-ui'
 
+Vue.use(ElementUI)
+Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
